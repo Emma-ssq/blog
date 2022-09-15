@@ -1,9 +1,9 @@
-site_name: CSbasicnotes
+site_name: CS basic notes
 # site_url: https://csdiy.wiki/
 site_url: https://emma-ssq.github.io/blog/
 site_author: Emmassq
 site_description: >-
-  CSbasicnotes
+  CS basic notes
 
 repo_name: blog
 repo_url: https://github.com/Emma-ssq/blog/
@@ -121,7 +121,20 @@ extra:
 
 nav:
   - 前言: "index.md"
+  - tools:
+    - 科学上网: "tools/科学上网.md"
+    - Vim: "tools/vim.md"
+    - Git: "tools/Git.md"
+    - GitHub: "tools/GitHub.md"
   - 终端命令: "命令/终端命令.md"
+  - 常用软件:
+      - anaconda: "命令/anaconda.md"
+  - 编程入门: 
+    - "MIT-Missing-Semester": "编程入门/MIT-Missing-Semester.md"
+    - "Harvard CS50: This is CS50x": "编程入门/CS50.md"
+    - "UCB CS61A: Structure and Interpretation of Computer Programs": "编程入门/CS61A.md"
+    - "Duke University: Introductory C Programming Specialization": "编程入门/Duke-Coursera-Intro-C.md"
+  
   - 一个仅供参考的CS学习规划: "CS学习规划.md"
   - 必学工具:
       - 翻墙: "必学工具/翻墙.md"
