@@ -1,0 +1,2 @@
+# blog
+CS basic notes
