@@ -1,11 +1,8 @@
 <div align="center">
-  <img src=./docs/images/title.png >
-</div>
-<div align="center">
   <img src=./docs/images/winnie-pooh.png >
 </div>
 
-# CS 自学指南
+# [CS basic notes](https://emma-ssq.github.io/blog/))
 
 > *Everyone should enjoy CS if you have a good teacher to teach you a good course.*
 
@@ -25,8 +22,6 @@
 
 同时由于个人水平有限，书中难免有笔误甚至概念错误之处，也请各位不吝赐教，在 issue 中提出来。
 
-。
-
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Emma-ssq/blog&type=Timeline)](https://star-history.com/#Emma-ssq/blog&Timeline)
@@ -38,6 +33,10 @@
 <!--  support by https://contrib.rocks -->
 <a href="https://github.com/Emma-ssq/blog/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Emma-ssq/blog"/>
+</a>
+
+<a href="https://github.com/PKUFlyingPig/cs-self-learning/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=PKUFlyingPig/cs-self-learning"/>
 </a>
 
 ## 许可
