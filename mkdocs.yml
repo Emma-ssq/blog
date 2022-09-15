@@ -1,12 +1,12 @@
-site_name: CS basic notes
+site_name: CSbasicnotes
 # site_url: https://csdiy.wiki/
 site_url: https://emma-ssq.github.io/blog/
-site_author: Emma-ssq
+site_author: Emmassq
 site_description: >-
-  CS basic notes
+  CSbasicnotes
 
 repo_name: blog
-repo_url: https://github.com/Emma-ssq/blog.git
+repo_url: https://github.com/Emma-ssq/blog/
 
 copyright: Copyright &copy; 2021-present <a href="https://github.com/Emma-ssq" target="_blank" rel="noopener noreferrer">Emma-ssq</a>
 
@@ -16,7 +16,7 @@ theme:
   static_templates:
     - 404.html
   # favicon: images/favicon16x16.png
-    favicon: images/winnie-pooh.png
+  favicon: images/winnie-pooh.png
   include_search_page: false
   search_index_only: true
 
@@ -114,7 +114,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/Emma-ssq/blog
+      link: https://github.com/Emma-ssq/blog/
   analytics:
     provider: google
     property: G-KJB4RXSKZG
