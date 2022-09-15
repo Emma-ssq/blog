@@ -2,7 +2,7 @@
   <img src=./docs/images/winnie-pooh.png >
 </div>
 
-# [CS basic notes](https://emma-ssq.github.io/blog/))
+# [CS basic notes](https://emma-ssq.github.io/blog/)
 
 > *Everyone should enjoy CS if you have a good teacher to teach you a good course.*
 
@@ -35,9 +35,9 @@
   <img src="https://contrib.rocks/image?repo=Emma-ssq/blog"/>
 </a>
 
-<a href="https://github.com/PKUFlyingPig/cs-self-learning/graphs/contributors">
+<!-- <a href="https://github.com/PKUFlyingPig/cs-self-learning/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=PKUFlyingPig/cs-self-learning"/>
-</a>
+</a> -->
 
 ## 许可
 

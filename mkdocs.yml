@@ -121,6 +121,7 @@ extra:
 
 nav:
   - 前言: "index.md"
+  - 一个仅供参考的CS学习规划: "CS学习规划.md"
   - tools:
     - 科学上网: "tools/科学上网.md"
     - Vim: "tools/vim.md"
@@ -128,14 +129,17 @@ nav:
     - GitHub: "tools/GitHub.md"
   - 终端命令: "命令/终端命令.md"
   - 常用软件:
-      - anaconda: "命令/anaconda.md"
+    - anaconda: "命令/anaconda.md"
+  - 博客:
+    - mkdocs与github-actions搭建网站: "blogs/mkdocs与github-actions搭建网站.md"
   - 编程入门: 
     - "MIT-Missing-Semester": "编程入门/MIT-Missing-Semester.md"
     - "Harvard CS50: This is CS50x": "编程入门/CS50.md"
     - "UCB CS61A: Structure and Interpretation of Computer Programs": "编程入门/CS61A.md"
     - "Duke University: Introductory C Programming Specialization": "编程入门/Duke-Coursera-Intro-C.md"
+  - ToAchieve: "ToAchieve.md"
+
   
-  - 一个仅供参考的CS学习规划: "CS学习规划.md"
   - 必学工具:
       - 翻墙: "必学工具/翻墙.md"
       - Vim: "必学工具/Vim.md"
