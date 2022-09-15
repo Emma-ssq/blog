@@ -122,6 +122,7 @@ extra:
 nav:
   - 前言: "index.md"
   - 一个仅供参考的CS学习规划: "CS学习规划.md"
+  - 代码规范: "代码规范.md"
   - tools:
     - 科学上网: "tools/科学上网.md"
     - Vim: "tools/vim.md"

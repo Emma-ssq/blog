@@ -5,3 +5,4 @@
 3. github徽章badge：
     1. [项目徽标](https://zhuanlan.zhihu.com/p/85370228)
     2. <https://blog.csdn.net/terrychinaz/article/details/115706200>
+4. Tabby 一个好用的shell
