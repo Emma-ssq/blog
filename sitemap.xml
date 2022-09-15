@@ -17,6 +17,14 @@
          
     </url>
     <url>
+         <loc>https://emma-ssq.github.io/blog/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/</loc>
+         <lastmod>2022-09-15</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/"/>
+         
+    </url>
+    <url>
          <loc>https://emma-ssq.github.io/blog/blogs/mkdocs%E4%B8%8Egithub-actions%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/</loc>
          <lastmod>2022-09-15</lastmod>
          <changefreq>daily</changefreq>
