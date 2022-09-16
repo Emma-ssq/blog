@@ -19,16 +19,11 @@
    2. <div align="center"><img src="图片链接" alt="图片名称2" style="zoom=50%"></img></div>
    ```
 
-   `<div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/第二企业刷题活码.png" alt="图片名称2" style="zoom=50%"></img></div>`
-
-   ```html
    <pre>
-      <div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/第二企业刷题活码.png" alt="图片名称2" style="zoom=50%"></img></div>
+      <div align="center"><img src="图片链接" alt="图片名称2" style="zoom=50%"></img></div>
    </pre>
-   ```
 
-   `<div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/第二企业刷题活码.png" alt="图片名称2" style="zoom=50%"></img></div>`
+   <pre> python -m pip install 包名称</pre>
 
-   <pre>
-      python -m pip install numpy
-   </pre>
+   :::java System.out.println("hello");  
+   #!python println('hello')
