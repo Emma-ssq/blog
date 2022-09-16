@@ -34,12 +34,12 @@
 
 ### Python
 
-1. **Pylint**: python代码**自动格式检查**。
+1. **Pylint**: python代码 **自动格式检查** 。
 2. Python：基础编译运行环境。
 3. **Pylance**: 各种提示信息，极大方便在vscode中编写python代码。
 4. **autoDocstring - Python Docstring Generator**: 预定义python代码中对文件，函数，变量等的注释描述格式，便于代码更规范，注释更完整。
     - 在settings中搜索Docstring自定义对函数的注释描述格式。
-    - 使用**连续的三个单引号`'''`或者双引号`"""`触发**。
+    - 使用 **连续的三个单引号`'''`或者双引号`"""`触发** 。
 
 ### 网页
 
