@@ -26,3 +26,8 @@
    1. <div align="center"><img src="图片链接"  alt="图片名称1"  width="200" height="200"></img></div>
    2. <div align="center"><img src="图片链接" alt="图片名称2" style="zoom=50%"></img></div>
    ```
+
+## 加粗
+
+1. 使用双`**`号，但是请注意一定是在加粗字符串前面 **留有空格**。
+2. 使用`<strong></strong>`将字符括起来。

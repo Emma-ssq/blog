@@ -25,4 +25,4 @@
     **目前未解决,打算系统学习docker,待解决问题：在docker镜像中无法实现pip安装，猜测原因如下：**
     - 可能情况一：宿主机与镜像中的dns服务，/etc/resolv.conf，网卡指定，重启镜像
     - 可能情况二：和pip版本有关，最好设置为20.
-9. test<strong>test</strong>
+
