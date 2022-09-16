@@ -7,8 +7,20 @@
 ## 网站，文件，段落链接
 
 1. 在文本中插入链接直接指向文件夹中的文件：例如`[Google C++代码规范的参考书籍](./Google C++ Style Guide中文.pdf)`
-2.
 
 ## 图片
 
-1. 在网页端显示，目前需要将图片上传到云端，不能是本地文件
+1. **推荐最简单的方式：**
+
+   ```markdown
+   ![Utools](./文件夹/Utools.png)
+   ```
+
+2. 在网页端显示，目前**需要将图片上传到云端**，不能是本地图片。
+
+   ```markdown
+   <div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/第二企业刷题活码.png"  alt="图片名称1"  width="200" height="200"></img></div>
+   
+   <div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/第二企业刷题活码.png" alt="图片名称2" style="zoom=50%"></img></div>
+   
+   ```
