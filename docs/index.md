@@ -1,6 +1,5 @@
-<figure markdown>
-  ![Image title](./images/winnie-pooh.png){ width="600" }
-</figure>
+
+![Image title](./images/winnie-pooh.png)
 
 # 前言
 
