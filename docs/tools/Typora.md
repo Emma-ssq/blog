@@ -14,6 +14,9 @@
 
 2. 在网页端显示，目前**需要将图片上传到云端**，不能是本地图片。
 
-   `<div align="center"><img src="图片链接"  alt="图片名称1"  width="200" height="200"></img></div>`
+   ```html
+   1. <div align="center"><img src="图片链接"  alt="图片名称1"  width="200" height="200"></img></div>`
+   2. <div align="center"><img src="图片链接" alt="图片名称2" style="zoom=50%"></img></div>
+   ```
 
    `<div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/第二企业刷题活码.png" alt="图片名称2" style="zoom=50%"></img></div>`
