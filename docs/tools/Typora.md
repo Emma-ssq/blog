@@ -6,7 +6,11 @@
 
 ## 网站，文件，段落链接
 
-1. 在文本中插入链接直接指向文件夹中的文件：例如[Google C++代码规范的参考书籍](./Google C++ Style Guide中文.pdf)，[链接](https://github.com/Emma-ssq/blog/blob/master/docs/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/Google%20C%2B%2B%20Style%20Guide%E4%B8%AD%E6%96%87.pdf)
+1. 在文本中插入链接直接指向文件夹中的文件：例如
+
+```markdown
+[Google C++代码规范的参考书籍](./Google C++ Style Guide中文.pdf)
+```
 
 ## 图片
 
