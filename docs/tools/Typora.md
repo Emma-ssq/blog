@@ -6,7 +6,7 @@
 
 ## 网站，文件，段落链接
 
-1. 在文本中插入链接直接指向文件夹中的文件：例如`[Google C++代码规范的参考书籍](./Google C++ Style Guide中文.pdf)`
+1. 在文本中插入链接直接指向文件夹中的文件：例如`[Google C++代码规范的参考书籍](./Google C++ Style Guide中文.pdf)`，[链接](https://github.com/Emma-ssq/blog/blob/master/docs/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/Google%20C%2B%2B%20Style%20Guide%E4%B8%AD%E6%96%87.pdf)
 
 ## 图片
 
@@ -18,8 +18,8 @@
 
 2. 在网页端显示，目前**需要将图片上传到云端**，不能是本地图片。
 
-   ```bash
-   <div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/第二企业刷题活码.png"  alt="图片名称1"  width="200" height="200"></img></div>
+   ```
+   <div align="center"><img src="图片链接"  alt="图片名称1"  width="200" height="200"></img></div>
    
    <div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/第二企业刷题活码.png" alt="图片名称2" style="zoom=50%"></img></div>
    
