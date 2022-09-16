@@ -26,3 +26,9 @@
       <div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/第二企业刷题活码.png" alt="图片名称2" style="zoom=50%"></img></div>
    </pre>
    ```
+
+   `<div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/第二企业刷题活码.png" alt="图片名称2" style="zoom=50%"></img></div>`
+
+   <pre>
+      <div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/第二企业刷题活码.png" alt="图片名称2" style="zoom=50%"></img></div>
+   </pre>
