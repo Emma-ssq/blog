@@ -135,6 +135,7 @@ nav:
     - Typora: "tools/Typora.md"
     - VSCode: "tools/VSCode.md"
     - 其他好用软件: "tools/其他好用软件.md"
+    - Docker: "tools/Docker.md"
   - 终端命令: "命令/终端命令.md"
   - 编程软件操作及命令:
     - anaconda: "命令/anaconda.md"
