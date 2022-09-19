@@ -57,18 +57,4 @@ Typora是一款编辑markdown文件的极其实用的工具，免费（直接下
 
 ## emoji表情
 
-1. 使用冒号`:emoji:`,Typora会给出提示。
-
-## 测试
-
-<img src="https://gitee.com/emma-ssq/picgo/raw/master/202209191954386.png" alt="图片1" style="zoom:50%;" />
-
-
-
-![图片2](assets/image-20220919195527877.png)
-
-
-
-<div align="center"><img src="https://gitee.com/emma-ssq/picgo/raw/master/202209191954386.png" alt="图片3" style="zoom=20%"></img></div>
-
-<div align="center"><img src="https://gitee.com/emma-ssq/picgo/raw/master/202209191954386.png" alt="图片4" width="200" height="200"></img></div>
+1. 使用冒号`:emoji:`，Typora会给出提示。实例：:e-mail:
