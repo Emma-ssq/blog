@@ -1,123 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://emma-ssq.github.io/blog/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/"/>
-         
     </url>
     <url>
          <loc>https://emma-ssq.github.io/blog/ToAchieve/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/ToAchieve/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/ToAchieve/"/>
-         
     </url>
     <url>
          <loc>https://emma-ssq.github.io/blog/blogs/mkdocs%E4%B8%8Egithub-actions%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/blogs/mkdocs%E4%B8%8Egithub-actions%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/blogs/mkdocs%E4%B8%8Egithub-actions%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/"/>
-         
     </url>
     <url>
          <loc>https://emma-ssq.github.io/blog/tools/Docker/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/tools/Docker/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/tools/Docker/"/>
-         
+    </url>
+    <url>
+         <loc>https://emma-ssq.github.io/blog/tools/Docsify/</loc>
+         <lastmod>2022-09-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://emma-ssq.github.io/blog/tools/Git/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/tools/Git/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/tools/Git/"/>
-         
     </url>
     <url>
          <loc>https://emma-ssq.github.io/blog/tools/GitHub/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/tools/GitHub/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/tools/GitHub/"/>
-         
     </url>
     <url>
          <loc>https://emma-ssq.github.io/blog/tools/Typora/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/tools/Typora/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/tools/Typora/"/>
-         
     </url>
     <url>
          <loc>https://emma-ssq.github.io/blog/tools/VSCode/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/tools/VSCode/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/tools/VSCode/"/>
-         
+    </url>
+    <url>
+         <loc>https://emma-ssq.github.io/blog/tools/mkdocs/</loc>
+         <lastmod>2022-09-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://emma-ssq.github.io/blog/tools/vim/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/tools/vim/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/tools/vim/"/>
-         
     </url>
     <url>
          <loc>https://emma-ssq.github.io/blog/tools/%E5%85%B6%E4%BB%96%E5%A5%BD%E7%94%A8%E8%BD%AF%E4%BB%B6/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/tools/%E5%85%B6%E4%BB%96%E5%A5%BD%E7%94%A8%E8%BD%AF%E4%BB%B6/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/tools/%E5%85%B6%E4%BB%96%E5%A5%BD%E7%94%A8%E8%BD%AF%E4%BB%B6/"/>
-         
     </url>
     <url>
          <loc>https://emma-ssq.github.io/blog/tools/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/tools/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/tools/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-         
     </url>
     <url>
          <loc>https://emma-ssq.github.io/blog/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/"/>
-         
     </url>
     <url>
          <loc>https://emma-ssq.github.io/blog/%E5%91%BD%E4%BB%A4/anaconda/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/%E5%91%BD%E4%BB%A4/anaconda/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/%E5%91%BD%E4%BB%A4/anaconda/"/>
-         
     </url>
     <url>
          <loc>https://emma-ssq.github.io/blog/%E5%91%BD%E4%BB%A4/%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/%E5%91%BD%E4%BB%A4/%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/%E5%91%BD%E4%BB%A4/%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4/"/>
-         
     </url>
     <url>
-         <loc>https://emma-ssq.github.io/blog/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/</loc>
-         <lastmod>2022-09-19</lastmod>
+         <loc>https://emma-ssq.github.io/blog/%E5%B0%8F%E7%99%BD%E5%85%A5%E9%97%A8/MIT-Missing-Semester/</loc>
+         <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="zh" href="https://emma-ssq.github.io/blog/zh/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/"/>
-         <xhtml:link rel="alternate" hreflang="en" href="https://emma-ssq.github.io/blog/en/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/"/>
-         
     </url>
 </urlset>
