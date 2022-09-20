@@ -16,14 +16,7 @@ theme:
   favicon: images/winnie-pooh.png
   include_search_page: false #true搜索模板将在search/search.html上构建并可用，这个方法被readthedocs主题使用
   search_index_only: true #确定搜索插件是仅生成搜索索引还是生成完整的搜索解决方案
-  # 字体
-  font:
-    text: Roboto
-    code: Roboto Mono
-  icon:
-    repo: fontawesome/brands/github
-  # 在该文件夹下修改部分配置，覆盖父主题
-  custom_dir: overrides # 提供了github评论服务
+
   features:
     - header.autohide
     # - navigation.instant #即时加载
@@ -55,6 +48,14 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+  # 在该文件夹下修改部分配置，覆盖父主题
+  custom_dir: overrides # 提供了github评论服务
 
 markdown_extensions: #推荐配置Markdown基本语法及其扩展
   - pymdownx.highlight:
@@ -107,15 +108,16 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
-  social: # 设置页脚
-    - icon: fontawesome/brands/github #github
-      link: https://github.com/Emma-ssq/blog/
-    - icon: fontawesome/solid/paper-plane #电子邮件
-      link: sunshuqing@mail.ustc.edu.cn
-
-  analytics: # 数据分析
-    provider: google
-    property: G-KJB4RXSKZG
+# 设置页脚
+social:
+  - icon: fontawesome/brands/github #github
+    link: https://github.com/Emma-ssq/blog/
+  - icon: fontawesome/solid/paper-plane #电子邮件
+    link: sunshuqing@mail.ustc.edu.cn
+# 数据分析
+analytics:
+  provider: google
+  property: G-KJB4RXSKZG
 
 # 插件
 plugins:
@@ -146,8 +148,8 @@ nav:
   - 终端命令: "命令/终端命令.md"
   - 编程软件操作及命令:
       - anaconda: "命令/anaconda.md"
+  - debug博客:
+      - mkdocs与github-actions搭建网站: "blogs/mkdocs与github-actions搭建网站.md"
   - 小白入门:
       - "MIT-Missing-Semester": "小白入门/MIT-Missing-Semester.md"
-  - debug博客:
-      - "TODO": "debug博客/template.md"
   - ToAchieve: "ToAchieve.md"
