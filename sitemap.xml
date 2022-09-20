@@ -76,6 +76,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emma-ssq.github.io/blog/%E5%91%BD%E4%BB%A4/pip/</loc>
+         <lastmod>2022-09-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emma-ssq.github.io/blog/%E5%91%BD%E4%BB%A4/%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4/</loc>
          <lastmod>2022-09-20</lastmod>
          <changefreq>daily</changefreq>
