@@ -1,21 +1,18 @@
-site_name: CS basic notes
-# site_url: https://csdiy.wiki/
+site_name: Emma's blog
 site_url: https://emma-ssq.github.io/blog/
 site_author: Emmassq
 site_description: >-
-  CS basic notes
+  Emma's Blog, all about CS.
 
 repo_name: blog
 repo_url: https://github.com/Emma-ssq/blog/
-
-copyright: Copyright &copy; 2021-present <a href="https://github.com/Emma-ssq" target="_blank" rel="noopener noreferrer">Emma-ssq</a>
+copyright: Copyright &copy; 2022-present <a href="https://github.com/Emma-ssq" target="_blank">Emma-ssq</a>
 
 theme:
   name: material
   language: zh
   static_templates:
     - 404.html
-  # favicon: images/favicon16x16.png
   favicon: images/winnie-pooh.png
   include_search_page: false
   search_index_only: true
@@ -57,92 +54,95 @@ theme:
     code: Roboto Mono
   icon:
     repo: fontawesome/brands/github
+  # 在该文件夹下修改部分配置，覆盖父主题
+  custom_dir: overrides # 提供了github评论服务
 
-  custom_dir: overrides
-
-markdown_extensions:
-  - attr_list
-  - md_in_html
-  - admonition
-  - codehilite:
-      guess_lang: false
-      linenums: false
-  - toc:
-      permalink: true
-  - footnotes
-  - meta
-  - def_list
-  - pymdownx.arithmatex
-  - pymdownx.betterem:
+markdown_extensions: #推荐配置Markdown基本语法及其扩展
+  - abbr #缩写或名词
+  - pymdownx.snippets #片段，将任意文件或部分内容嵌入到文档中
+  - admonition #警告或标注
+  - pymdownx.details #细节折叠
+  - pymdownx.superfences #超级围栏
+  - attr_list #属性列表（按钮-颜色图标）
+  - def_list #定义列表
+  - footnotes #行内脚注
+  - md_in_html #HTML 中的 Markdown
+  - toc: #目录
+      toc_depth: 3 #目录深度，默认6，0则隐藏
+  #      title: On this page  #默认值，自动获取
+  #      permalink: true   #每个标题的末尾添加段落符号锚链接，默认false
+  #      permalink: ⚓︎  #每个标题的末尾添加自定义符号锚链接
+  #      permalink_title: Anchor link to this section for reference #在悬停时显示并由屏幕阅读器阅读的锚链接的标题
+  - tables #表格（未推荐）
+  - pymdownx.arithmatex: #数学公式
+      generic: true
+  - pymdownx.betterem: #粗体斜体
       smart_enable: all
-  - pymdownx.caret
+  - pymdownx.caret #插入角标符号(`^`)
+  - pymdownx.mark #双等号(`==`)
+  - pymdownx.tilde #波浪号(`~`)
+  #评论家(突出显示建议更改)，未推荐
   - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_png
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tasklist
-  - pymdownx.tilde
+  #      mode: reject #应如何解析标记，默认view查看更改，accept是接受更改，reject是拒绝更改
+  - pymdownx.keys #键盘键和组合
+  # 表情符号
+  - pymdownx.emoji
+  - pymdownx.highlight #代码高亮，对代码块（SuperFences）和行内代码块（InlineHilite）的语法突出显示
+  - pymdownx.inlinehilite #行内高亮
+  - pymdownx.smartsymbols #智能符号
+  - pymdownx.tabbed: #内容选项卡
+      alternate_style: true #启用内容选项卡替代样式，必须开启
+  - pymdownx.tasklist: #任务列表
+      custom_checkbox: true #切换复选框的呈现样式，将原生复选框样式替换为漂亮的图标
+  #      clickable_checkbox: true  #切换复选框是否可点击，默认false，不建议开
 
+extra_javascript:
+  # 数学符号在网页上显示
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# extra:
+# 设置页脚
+# social:
+#   - icon: fontawesome/brands/github #github
+#     link: https://github.com/Emma-ssq/blog/
+#   - icon: fontawesome/solid/paper-plane #电子邮件
+#     link: sunshuqing@mail.ustc.edu.cn
+# 数据分析
+# analytics:
+#   provider: google
+#   property: G-KJB4RXSKZG
+
+# 插件
 plugins:
-  - i18n:
-      default_language: zh
-      material_alternate: true
-      languages:
-        zh:
-          name: 简体中文
-          build: true
-        en:
-          name: English
-          build: true
-          site_name: Emma-ssq.blog
-      nav_translations:
-        en:
-          前言: Foreword
-          代码规范: Style Guides
-          终端命令: Terminal instructions
-          小白入门: Beginner Courses
-          各类编程软件命令: Commands of Programming softwares
-          debug博客: Blogs of debugging
-          待实现: To Achieve
-          实用工具: Productivity Toolkit
+  # 添加搜索栏
   - search:
       lang: ja
+  # 关联github最后更新时间
   - git-revision-date-localized
+  # 压缩html，css，js
   - minify:
       minify_html: true
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Emma-ssq/blog/
-  analytics:
-    provider: google
-    property: G-KJB4RXSKZG
-
+# 左侧导航
 nav:
   - 前言: "index.md"
   - 代码规范: "代码规范/代码规范.md"
   - 实用工具:
-    - 科学上网: "tools/科学上网.md"
-    - Vim: "tools/vim.md"
-    - Git: "tools/Git.md"
-    - GitHub: "tools/GitHub.md"
-    - Typora: "tools/Typora.md"
-    - VSCode: "tools/VSCode.md"
-    - 其他好用软件: "tools/其他好用软件.md"
-    - Docker: "tools/Docker.md"
+      - 科学上网: "tools/科学上网.md"
+      - Vim: "tools/vim.md"
+      - Git: "tools/Git.md"
+      - GitHub: "tools/GitHub.md"
+      - Typora: "tools/Typora.md"
+      - VSCode: "tools/VSCode.md"
+      - Docker: "tools/Docker.md"
+      - Docsify: "tools/Docsify.md"
+      - 其他好用软件: "tools/其他好用软件.md"
   - 终端命令: "命令/终端命令.md"
   - 编程软件操作及命令:
-    - anaconda: "命令/anaconda.md"
+      - anaconda: "命令/anaconda.md"
   - debug博客:
-    - mkdocs与github-actions搭建网站: "blogs/mkdocs与github-actions搭建网站.md"
-  - 小白入门: 
-    - "MIT-Missing-Semester": "小白入门/MIT-Missing-Semester.md"
+      - mkdocs与github-actions搭建网站: "blogs/mkdocs与github-actions搭建网站.md"
+  - 小白入门:
+      - "MIT-Missing-Semester": "小白入门/MIT-Missing-Semester.md"
   - ToAchieve: "ToAchieve.md"
-
-  
