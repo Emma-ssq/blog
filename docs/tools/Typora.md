@@ -12,7 +12,12 @@ Typora是一款编辑markdown文件的极其实用的工具，免费（直接下
 
 1. 在文本中插入链接直接指向文件夹中的文件：例如`[Google C++代码规范的参考书籍](./Google C++ Style Guide中文.pdf)`
 2. 链接文件主题：`Please see the [project license](about.md#license) for further details.`
-3. 在新标签页打开链接：`[链接名称](地址){:target="_blank"}`
+3. **在新标签页打开链接**：
+
+   ```markdown
+   [链接名称](链接地址){:target="_blank"}
+   <a href="链接" target="_blank>链接标题</a>
+   ```
 
 ## 图片
 

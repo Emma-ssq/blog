@@ -5,6 +5,7 @@
 1. [MkDocs中文文档](https://mkdocs.zimoapps.com/){:target="_blank"}
 2. [中文配置material主题](https://yiruru.com/6%E4%BB%A3%E7%A0%81%E5%A6%82%E8%AF%97/%E4%BA%91%E5%BB%BA%E7%AB%99/Material%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/){:target="_blank"}
 3. [中文实践](https://cyent.github.io/markdown-with-mkdocs-material/){:target="_blank"}
+4. [Mkdocs 配置和使用](https://zhuanlan.zhihu.com/p/383582472){:target="_blank"}
 
 ## 第一个mkdocs项目
 
@@ -31,31 +32,34 @@ mkdocs build
 
 1. 在github上创建一个新仓库，设置为 **public** ,关联本地博客仓库。
 2. 配置远程仓库settings中的pages界面，build and deployment处设置为 **branch:gh-pages, /root** ，保存。
-3. 配置github-actions中的workflow，创建新的工作流，存储在[.github/workflows/autoPublish.yml](https://github.com/Emma-ssq/blog/blob/master/.github/workflows/autoPublish.yml){:target="_blank"}中，具体内容如下：
+3. 两种方案：
 
-  ```yaml
-  name: autoPublish
-  on:
-    push:
-      branches:
-        - master
-        - main
+- 在本地直接执行 `mkdocs gh-deploy --clean`
+- 配置github-actions中的workflow，创建新的工作流，存储在[.github/workflows/autoPublish.yml](https://github.com/Emma-ssq/blog/blob/master/.github/workflows/autoPublish.yml){:target="_blank"}中，具体内容如下：
 
-  jobs:
-    deploy:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v2
-          with:
-            fetch-depth: 0
+    ```yaml
+    name: autoPublish
+    on:
+      push:
+        branches:
+          - master
+          - main
 
-        - uses: actions/setup-python@v2
-          with:
-            python-version: 3.x
+    jobs:
+      deploy:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v2
+            with:
+              fetch-depth: 0
 
-        - run: pip3 install -U -r requirements.txt
-        - run: mkdocs gh-deploy --force
-  ```
+          - uses: actions/setup-python@v2
+            with:
+              python-version: 3.x
+
+          - run: pip3 install -U -r requirements.txt
+          - run: mkdocs gh-deploy --force
+    ```
 
 ## mkdoc.yml文件
 

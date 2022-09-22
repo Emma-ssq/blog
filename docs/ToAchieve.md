@@ -1,5 +1,10 @@
 # ToAchieve
 
+- apt更改镜像源地址为科大:<https://mirrors.ustc.edu.cn/help/>
+- ubuntu新建用户：
+  - <https://blog.csdn.net/timothy93bp/article/details/77679000>
+  - <https://101.lug.ustc.edu.cn/Ch05/#adduser>
+
 - github徽章badge：
     1. [项目徽标](https://zhuanlan.zhihu.com/p/85370228)
     2. <https://blog.csdn.net/terrychinaz/article/details/115706200>

@@ -148,7 +148,8 @@ nav:
       - 其他好用软件: "tools/其他好用软件.md"
   - 命令:
       - 终端命令: "命令/终端命令.md"
-      - python包管理工具: "命令/pip.md"
+        
+      - python包管理工具pip: "命令/pip.md"
   - 编程软件操作及命令:
       - anaconda: "命令/anaconda.md"
   - 小白入门:
