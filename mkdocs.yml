@@ -57,7 +57,7 @@ theme:
         name: Switch to light mode
 
   # 在该文件夹下修改部分配置，覆盖父主题
-  custom_dir: overrides # 提供了github评论服务
+  # custom_dir: overrides # 提供了github评论服务
 
 markdown_extensions: #推荐配置Markdown基本语法及其扩展
   - pymdownx.highlight:
@@ -148,7 +148,7 @@ nav:
       - 其他好用软件: "tools/其他好用软件.md"
   - 命令:
       - 终端命令: "命令/终端命令.md"
-        
+
       - python包管理工具pip: "命令/pip.md"
   - 编程软件操作及命令:
       - anaconda: "命令/anaconda.md"
