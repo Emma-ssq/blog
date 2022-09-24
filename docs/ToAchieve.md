@@ -20,3 +20,8 @@
     **目前未解决,打算系统学习docker,待解决问题：在docker镜像中无法实现pip安装，猜测原因如下：**
   - 可能情况一：宿主机与镜像中的dns服务，/etc/resolv.conf，网卡指定，重启镜像
   - 可能情况二：和pip版本有关，最好设置为20.
+
+1. 'argon2:$argon2id$v=19$m=10240,t=10,p=8$5TryX3M8CARFhZkNiSjAtw$E+jvRI4zGeKKjW+2FnEKIdx7F1yv3xLLirrJnodIK7I'
+2. /home/sunshuqing/.jupyter/jupyter_notebook_config.py
+3. ssh -p 35009 -L 8888:127.0.0.1:8888 sunshuqing@202.38.88.88
+4. 
