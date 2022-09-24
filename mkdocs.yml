@@ -156,4 +156,5 @@ nav:
       - "MIT-Missing-Semester": "小白入门/MIT-Missing-Semester.md"
   - debug博客:
       - "TODO": "debug博客/template.md"
+      - "本地打开远程服务器端tensorboard": "debug博客/打开远程服务器端的tensorboard.md"
   - ToAchieve: "ToAchieve.md"
