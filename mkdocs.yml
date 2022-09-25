@@ -153,6 +153,7 @@ nav:
   - 编程软件操作及命令:
       - anaconda: "命令/anaconda.md"
   - 小白入门:
+      - "Crash Course Computer Science": "小白入门/Crash Course Computer Science.md"
       - "MIT-Missing-Semester": "小白入门/MIT-Missing-Semester.md"
   - debug博客:
       - "TODO": "debug博客/template.md"
