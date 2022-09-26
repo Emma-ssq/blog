@@ -51,8 +51,41 @@ A new level of abstraction.
     - 软件与硬件之间的媒介，os提供API来抽象硬件。
     - 并发执行（多任务程序）多个程序，以免CPU不断等待I/O。
     - 虚拟内存，隐藏实际物理地址，高层抽象化便于上层使用。内存分区，内存保护。
-    - 分时操作系统（Multics），Bell实验室 Unix，其中Unix主要两部分，1是内核，包括内存管理，多任务，I/O处理；2是一堆有用的工具。
+    - 多用户分时操作系统（Multics），Bell实验室 Unix，其中Unix主要两部分，1是内核，包括内存管理，多任务，I/O处理；2是一堆有用的工具。
 
 11. 文件系统：
     - 文件格式
     - 分层文件系统：目录+分配块，->碎片化fragmentation
+
+12. 压缩：无损压缩（Huffman Tree）& 有损压缩
+
+13. 图形显示：
+    - 光栅扫描，字符生成器，矢量图形，CAD。
+    - 3D投影，扫描线渲染（填充图形），边缘羽化。
+    - GPU
+
+14. PC时代，1975 Altari 8800 后Basic解释器（Bill Gates），1976 Apple I， 1977 Apple II， 1981 IBM PC（开放式架构，IBM兼容），1984 Macintosh (GUI,施乐公司)
+
+15. 网络：
+    - 局域网LAN，以太网是LAN的代表。广域网WAN，路由器一般由你的ISP提供。
+    - 网络协议
+    - 域名系统：DNS
+    - 万维网与互联网：万维网在互联网之上运行，与youtube,skype等应用程序平级。
+
+16. 计算机安全：
+    - 保密性，完整性，可用性。
+    - 身份认证，访问控制，隔离
+    - 钓鱼，木马，缓冲区溢出，代码注入，拒绝服务攻击
+    - 密码学
+
+17. 计算机视觉：
+    - 边缘，核，卷积。
+
+18. NLP：
+    - 语法分析分割语句为单词的组合
+    - 语音识别：快速傅里叶变换，音素识别
+
+19. words:
+    - a switching barrier or switching cost
+    - Point & Click
+    - You should go out and learn more.
