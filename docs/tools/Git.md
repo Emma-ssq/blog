@@ -137,6 +137,27 @@ git pull
 
 1. .gitignore 用于指定git对哪些文件的修改隐藏略过。
 
+## 如何写好一个Git commit
+
+><https://www.liuxing.io/blog/how-to-write-a-good-commit/>
+每次提交，commit message 都包括三个部分： Header (主题)、Body（详细描述） 和 Footer 组成，Body 和 Footer 都是可选的。
+
+```bash
+<header>
+// 空一行
+<body>
+// 空一行
+<footer>
+```
+
+![commit示例](./Git.assets/commit%E7%A4%BA%E4%BE%8B.png)
+
+1. header行限制为50个字符，第一个字母大写，末尾不加句点。
+2. Body行宽不超过72字符，用项目任务号编写，使用祈使句Add不是Added，Fix不是Fixed，描述目的不是具体实现
+3. Footer中包含ticket号或者issue编号
+
+### 一些有用的commit工具
+
 ## 其他参考资料
 
 - Pro Git ，强烈推荐！学习前五章的内容可以教会您流畅使用 Git 的绝大多数技巧，因为您已经理解了 Git 的数据模型。后面的章节提供了很多有趣的高级主题。[（Pro Git 中文版）](<https://git-scm.com/book/zh/v2>)；
