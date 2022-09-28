@@ -161,10 +161,11 @@ git pull
 ### 一些有用的commit工具
 
 > [git commit规范及自动检查工具安装小记](<https://juejin.cn/post/6844904033635794958>)
-> [commitizen全局安装](<https://juejin.cn/post/6844904033635794958>)
+> [commitizen全局安装](<https://juejin.cn/post/7084119337375629342>)
 > [anjular规范各部分含义](https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 
 1. Commitizen：并配置cz-conventional-changelog使用anjular 的规范，并且配置路径全局安装.czrc
+2. 同时在vscode中安装Visual Studio Code Commitizen Support 可以实现在vscode窗口中编写good commits
 
 另外还有Commitlint是一个可以帮我们检查 git commit 所提交信息是否符合conventional commit format（也就是类似上面的格式）的工具，但是我没有使用，觉得如果提交commit一直给我报错，maybe会影响心情。
 
