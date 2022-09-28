@@ -1,5 +1,6 @@
 # ToAchieve
 
+- [Missing semester](<https://missing-semester-cn.github.io/2020/security/>)的github仓库 以及[授课老师的仓库](<https://github.com/jonhoo/flurry>)，非常整洁有序，徽章，readme，license， github actions等等，非常适合精读，学习如何写一个项目的代码仓库。寻找关于编写github仓库的CI服务譬如Jekyll
 - apt更改镜像源地址为科大:<https://mirrors.ustc.edu.cn/help/>
 - ubuntu新建用户：
   - <https://blog.csdn.net/timothy93bp/article/details/77679000>
@@ -20,8 +21,3 @@
     **目前未解决,打算系统学习docker,待解决问题：在docker镜像中无法实现pip安装，猜测原因如下：**
   - 可能情况一：宿主机与镜像中的dns服务，/etc/resolv.conf，网卡指定，重启镜像
   - 可能情况二：和pip版本有关，最好设置为20.
-
-1. 'argon2:$argon2id$v=19$m=10240,t=10,p=8$5TryX3M8CARFhZkNiSjAtw$E+jvRI4zGeKKjW+2FnEKIdx7F1yv3xLLirrJnodIK7I'
-2. /home/sunshuqing/.jupyter/jupyter_notebook_config.py
-3. ssh -p 35009 -L 8888:127.0.0.1:8888 sunshuqing@202.38.88.88
-4. 
