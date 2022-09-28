@@ -152,11 +152,23 @@ git pull
 
 ![commit示例](./Git.assets/commit%E7%A4%BA%E4%BE%8B.png)
 
-1. header行限制为50个字符，第一个字母大写，末尾不加句点。
-2. Body行宽不超过72字符，用项目任务号编写，使用祈使句Add不是Added，Fix不是Fixed，描述目的不是具体实现
-3. Footer中包含ticket号或者issue编号
+1. header行限制为50个字符，第一个字母大写，末尾不加句点。scope用于说明 commit 影响的范围，比如数据层、控制层、视图层等等，视项目不同而不同。
+2. Body行宽不超过72字符，可以分行-，使用祈使句Add不是Added，Fix不是Fixed，描述目的不是具体实现
+3. Footer 部分只用于两种情况。
+    - 不兼容变动：如果当前代码与上一个版本不兼容，则 Footer 部分以BREAKING CHANGE开头，后面是对变动的描述、以及变动理由和迁移方法。
+    - 关闭 Issue：Closes #234
 
 ### 一些有用的commit工具
+
+> [git commit规范及自动检查工具安装小记](<https://juejin.cn/post/6844904033635794958>)
+> [commitizen全局安装](<https://juejin.cn/post/6844904033635794958>)
+> [anjular规范各部分含义](https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+
+1. Commitizen：并配置cz-conventional-changelog使用anjular 的规范，并且配置路径全局安装.czrc
+
+另外还有Commitlint是一个可以帮我们检查 git commit 所提交信息是否符合conventional commit format（也就是类似上面的格式）的工具，但是我没有使用，觉得如果提交commit一直给我报错，maybe会影响心情。
+
+又另外：如果你的所有 Commit 都符合 Angular 格式，那么发布新版本时， Change log 就可以用脚本自动生成，参见上面链接。
 
 ## 其他参考资料
 
