@@ -137,8 +137,10 @@ nav:
   - 代码规范: "代码规范/代码规范.md"
   - 实用工具:
       - 科学上网: "tools/科学上网.md"
+      - 调试: "tools/Debug.md"
       - Vim: "tools/vim.md"
       - Git: "tools/Git.md"
+      - Make: "tools/Make.md"
       - GitHub: "tools/GitHub.md"
       - Typora: "tools/Typora.md"
       - VSCode: "tools/VSCode.md"
