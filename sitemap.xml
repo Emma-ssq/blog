@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emma-ssq.github.io/blog/coding%20language/UCB%20CS61A/</loc>
+         <lastmod>2022-09-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emma-ssq.github.io/blog/debug%E5%8D%9A%E5%AE%A2/template/</loc>
          <lastmod>2022-09-28</lastmod>
          <changefreq>daily</changefreq>
@@ -26,6 +31,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emma-ssq.github.io/blog/tools/CMake/</loc>
+         <lastmod>2022-09-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emma-ssq.github.io/blog/tools/Debug/</loc>
          <lastmod>2022-09-28</lastmod>
          <changefreq>daily</changefreq>
@@ -37,6 +47,11 @@
     </url>
     <url>
          <loc>https://emma-ssq.github.io/blog/tools/Docsify/</loc>
+         <lastmod>2022-09-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emma-ssq.github.io/blog/tools/GNU%20Make/</loc>
          <lastmod>2022-09-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
