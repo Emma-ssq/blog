@@ -165,7 +165,8 @@ git pull
 > [anjular规范各部分含义](https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 
 1. Commitizen：并配置cz-conventional-changelog使用anjular 的规范，并且配置路径全局安装.czrc
-2. 同时在vscode中安装Visual Studio Code Commitizen Support 可以实现在vscode窗口中编写good commits
+2. 同时在vscode中安装Conventional Commits，实现commit格式检查，符合anjular规范，同时commit之后自动化提交。
+Visual Studio Code Commitizen Support 可以实现在vscode窗口中编写good commits
 
 另外还有Commitlint是一个可以帮我们检查 git commit 所提交信息是否符合conventional commit format（也就是类似上面的格式）的工具，但是我没有使用，觉得如果提交commit一直给我报错，maybe会影响心情。
 
