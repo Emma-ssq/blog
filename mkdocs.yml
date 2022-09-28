@@ -144,6 +144,7 @@ nav:
       - GitHub: "tools/GitHub.md"
       - Typora: "tools/Typora.md"
       - VSCode: "tools/VSCode.md"
+      - GNU Make: "tools/GNU Make.md"
       - Docker: "tools/Docker.md"
       - mkdocs: "tools/mkdocs.md"
       - Docsify: "tools/Docsify.md"
@@ -156,6 +157,8 @@ nav:
   - 小白入门:
       - "Crash Course Computer Science": "小白入门/Crash Course Computer Science.md"
       - "MIT-Missing-Semester": "小白入门/MIT-Missing-Semester.md"
+  - 编程语言:
+      - "python: UCB CS61A": "coding language/UCB CS61A.md"
   - debug博客:
       - "TODO": "debug博客/template.md"
       - "本地打开远程": "debug博客/本地打开远程.md"

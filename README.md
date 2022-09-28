@@ -14,7 +14,7 @@
 
 本仓库目的在于记录平时coding中所遇到的bug以及解决方法，同时还会记录一些计算机基础知识，大都是零散知识，借用github pages以网页的形式展现出来，更方便查询阅读。
 
-仓库主要使用mkdocs，github actions构建。布局参考[PKU某大佬](https://github.com/PKUFlyingPig/cs-self-learning), 非常感谢。
+仓库主要使用mkdocs，github actions构建。布局参考[PKU某大佬](https://github.com/PKUFlyingPig/cs-self-learning), [CS自学指南网站](<https://csdiy.wiki/>)非常感谢。
 
 ## 如何成为贡献者
 
