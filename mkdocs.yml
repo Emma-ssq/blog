@@ -159,4 +159,5 @@ nav:
   - debug博客:
       - "TODO": "debug博客/template.md"
       - "本地打开远程": "debug博客/本地打开远程.md"
+      - "ubuntu新建用户": "debug博客/ubuntu新建用户.md"
   - ToAchieve: "ToAchieve.md"
