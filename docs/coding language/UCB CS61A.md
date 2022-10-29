@@ -9,6 +9,26 @@
 
 下面只是介绍一些使用python时的小技巧。
 
+## 代码规范
+
+vscode中一般使用pep8，yapf来格式化python代码，除此之外还需要一些其他的规范。
+
+1. 编写docstring和pytest， 使用`python3 -m doctest -v test.py`命令运行。
+
+```python
+def divde_exact(n,d):
+    # 函数编写docstring，（编写pytest文件）
+    """Return the quotient and remainder of dividing N by D.
+    >>> q, r = divide_exact(2013, 10)
+    >>> q
+    201
+    >>> r
+    3
+    """
+    return n // d, n % d
+
+```
+
 ## 帮助help
 
 1. python自带了help函数，进入python后直接输入help会提示如何查询object的信息。
@@ -21,3 +41,10 @@
 ## 运行命令
 
 1. `-i` 交互模式
+2. pytest:
+
+## 一些好用的函数
+
+### assert
+
+`assert 3<2, "Math is broken"`: AssertionError

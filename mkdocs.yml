@@ -159,6 +159,7 @@ nav:
       - "MIT-Missing-Semester": "小白入门/MIT-Missing-Semester.md"
   - 编程语言:
       - "python: UCB CS61A": "coding language/UCB CS61A.md"
+      - "python: 小甲鱼": "coding language/Python fish.md"
   - debug博客:
       - "TODO": "debug博客/template.md"
       - "本地打开远程": "debug博客/本地打开远程.md"
